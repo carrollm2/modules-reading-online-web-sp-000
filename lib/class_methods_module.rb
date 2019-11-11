@@ -6,20 +6,10 @@ module MetaDancing
 
 end
 
-# class Dancer
-#   extend MetaDancing
-# end
-#
-# class Kid
-#   extend MetaDancing
-# end
-
 class Dancer
-  extend FancyDance::ClassMethods
-  include FancyDance::InstanceMethods
+  extend MetaDancing
 end
 
 class Kid
-  extend FancyDance::ClassMethods
-  include FancyDance::InstanceMethods
+  extend MetaDancing
 end
